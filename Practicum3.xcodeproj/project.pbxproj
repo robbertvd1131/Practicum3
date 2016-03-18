@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F595D4391C9C348B00E7EB6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D4381C9C348B00E7EB6E /* AppDelegate.swift */; };
+		F595D43B1C9C348B00E7EB6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D43A1C9C348B00E7EB6E /* ViewController.swift */; };
+		F595D43E1C9C348B00E7EB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595D43C1C9C348B00E7EB6E /* Main.storyboard */; };
+		F595D4411C9C348B00E7EB6E /* Practicum3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F595D43F1C9C348B00E7EB6E /* Practicum3.xcdatamodeld */; };
+		F595D4431C9C348B00E7EB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595D4421C9C348B00E7EB6E /* Assets.xcassets */; };
+		F595D4461C9C348B00E7EB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595D4441C9C348B00E7EB6E /* LaunchScreen.storyboard */; };
+		F595D4511C9C348B00E7EB6E /* Practicum3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D4501C9C348B00E7EB6E /* Practicum3Tests.swift */; };
+		F595D45C1C9C348C00E7EB6E /* Practicum3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D45B1C9C348C00E7EB6E /* Practicum3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F595D44D1C9C348B00E7EB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F595D42D1C9C348B00E7EB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F595D4341C9C348B00E7EB6E;
+			remoteInfo = Practicum3;
+		};
+		F595D4581C9C348C00E7EB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F595D42D1C9C348B00E7EB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F595D4341C9C348B00E7EB6E;
+			remoteInfo = Practicum3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F595D4351C9C348B00E7EB6E /* Practicum3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicum3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595D4381C9C348B00E7EB6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F595D43A1C9C348B00E7EB6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F595D43D1C9C348B00E7EB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F595D4401C9C348B00E7EB6E /* Practicum3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practicum3.xcdatamodel; sourceTree = "<group>"; };
+		F595D4421C9C348B00E7EB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F595D4451C9C348B00E7EB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F595D4471C9C348B00E7EB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595D44C1C9C348B00E7EB6E /* Practicum3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practicum3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595D4501C9C348B00E7EB6E /* Practicum3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practicum3Tests.swift; sourceTree = "<group>"; };
+		F595D4521C9C348B00E7EB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595D4571C9C348C00E7EB6E /* Practicum3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practicum3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595D45B1C9C348C00E7EB6E /* Practicum3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practicum3UITests.swift; sourceTree = "<group>"; };
+		F595D45D1C9C348C00E7EB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F595D4321C9C348B00E7EB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595D4491C9C348B00E7EB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595D4541C9C348C00E7EB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F595D42C1C9C348B00E7EB6E = {
+			isa = PBXGroup;
+			children = (
+				F595D4371C9C348B00E7EB6E /* Practicum3 */,
+				F595D44F1C9C348B00E7EB6E /* Practicum3Tests */,
+				F595D45A1C9C348C00E7EB6E /* Practicum3UITests */,
+				F595D4361C9C348B00E7EB6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F595D4361C9C348B00E7EB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F595D4351C9C348B00E7EB6E /* Practicum3.app */,
+				F595D44C1C9C348B00E7EB6E /* Practicum3Tests.xctest */,
+				F595D4571C9C348C00E7EB6E /* Practicum3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F595D4371C9C348B00E7EB6E /* Practicum3 */ = {
+			isa = PBXGroup;
+			children = (
+				F595D4381C9C348B00E7EB6E /* AppDelegate.swift */,
+				F595D43A1C9C348B00E7EB6E /* ViewController.swift */,
+				F595D43C1C9C348B00E7EB6E /* Main.storyboard */,
+				F595D4421C9C348B00E7EB6E /* Assets.xcassets */,
+				F595D4441C9C348B00E7EB6E /* LaunchScreen.storyboard */,
+				F595D4471C9C348B00E7EB6E /* Info.plist */,
+				F595D43F1C9C348B00E7EB6E /* Practicum3.xcdatamodeld */,
+			);
+			path = Practicum3;
+			sourceTree = "<group>";
+		};
+		F595D44F1C9C348B00E7EB6E /* Practicum3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F595D4501C9C348B00E7EB6E /* Practicum3Tests.swift */,
+				F595D4521C9C348B00E7EB6E /* Info.plist */,
+			);
+			path = Practicum3Tests;
+			sourceTree = "<group>";
+		};
+		F595D45A1C9C348C00E7EB6E /* Practicum3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F595D45B1C9C348C00E7EB6E /* Practicum3UITests.swift */,
+				F595D45D1C9C348C00E7EB6E /* Info.plist */,
+			);
+			path = Practicum3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F595D4341C9C348B00E7EB6E /* Practicum3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595D4601C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3" */;
+			buildPhases = (
+				F595D4311C9C348B00E7EB6E /* Sources */,
+				F595D4321C9C348B00E7EB6E /* Frameworks */,
+				F595D4331C9C348B00E7EB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practicum3;
+			productName = Practicum3;
+			productReference = F595D4351C9C348B00E7EB6E /* Practicum3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F595D44B1C9C348B00E7EB6E /* Practicum3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595D4631C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3Tests" */;
+			buildPhases = (
+				F595D4481C9C348B00E7EB6E /* Sources */,
+				F595D4491C9C348B00E7EB6E /* Frameworks */,
+				F595D44A1C9C348B00E7EB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F595D44E1C9C348B00E7EB6E /* PBXTargetDependency */,
+			);
+			name = Practicum3Tests;
+			productName = Practicum3Tests;
+			productReference = F595D44C1C9C348B00E7EB6E /* Practicum3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F595D4561C9C348C00E7EB6E /* Practicum3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595D4661C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3UITests" */;
+			buildPhases = (
+				F595D4531C9C348C00E7EB6E /* Sources */,
+				F595D4541C9C348C00E7EB6E /* Frameworks */,
+				F595D4551C9C348C00E7EB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F595D4591C9C348C00E7EB6E /* PBXTargetDependency */,
+			);
+			name = Practicum3UITests;
+			productName = Practicum3UITests;
+			productReference = F595D4571C9C348C00E7EB6E /* Practicum3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F595D42D1C9C348B00E7EB6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F595D4341C9C348B00E7EB6E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F595D44B1C9C348B00E7EB6E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F595D4341C9C348B00E7EB6E;
+					};
+					F595D4561C9C348C00E7EB6E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F595D4341C9C348B00E7EB6E;
+					};
+				};
+			};
+			buildConfigurationList = F595D4301C9C348B00E7EB6E /* Build configuration list for PBXProject "Practicum3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F595D42C1C9C348B00E7EB6E;
+			productRefGroup = F595D4361C9C348B00E7EB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F595D4341C9C348B00E7EB6E /* Practicum3 */,
+				F595D44B1C9C348B00E7EB6E /* Practicum3Tests */,
+				F595D4561C9C348C00E7EB6E /* Practicum3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F595D4331C9C348B00E7EB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595D4461C9C348B00E7EB6E /* LaunchScreen.storyboard in Resources */,
+				F595D4431C9C348B00E7EB6E /* Assets.xcassets in Resources */,
+				F595D43E1C9C348B00E7EB6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595D44A1C9C348B00E7EB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595D4551C9C348C00E7EB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F595D4311C9C348B00E7EB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595D4411C9C348B00E7EB6E /* Practicum3.xcdatamodeld in Sources */,
+				F595D43B1C9C348B00E7EB6E /* ViewController.swift in Sources */,
+				F595D4391C9C348B00E7EB6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595D4481C9C348B00E7EB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595D4511C9C348B00E7EB6E /* Practicum3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595D4531C9C348C00E7EB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595D45C1C9C348C00E7EB6E /* Practicum3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F595D44E1C9C348B00E7EB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F595D4341C9C348B00E7EB6E /* Practicum3 */;
+			targetProxy = F595D44D1C9C348B00E7EB6E /* PBXContainerItemProxy */;
+		};
+		F595D4591C9C348C00E7EB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F595D4341C9C348B00E7EB6E /* Practicum3 */;
+			targetProxy = F595D4581C9C348C00E7EB6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F595D43C1C9C348B00E7EB6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F595D43D1C9C348B00E7EB6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F595D4441C9C348B00E7EB6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F595D4451C9C348B00E7EB6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F595D45E1C9C348C00E7EB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F595D45F1C9C348C00E7EB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F595D4611C9C348C00E7EB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Practicum3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.Practicum3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F595D4621C9C348C00E7EB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Practicum3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.Practicum3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F595D4641C9C348C00E7EB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Practicum3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.Practicum3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practicum3.app/Practicum3";
+			};
+			name = Debug;
+		};
+		F595D4651C9C348C00E7EB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Practicum3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.Practicum3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practicum3.app/Practicum3";
+			};
+			name = Release;
+		};
+		F595D4671C9C348C00E7EB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Practicum3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.Practicum3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Practicum3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F595D4681C9C348C00E7EB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Practicum3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.Practicum3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Practicum3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F595D4301C9C348B00E7EB6E /* Build configuration list for PBXProject "Practicum3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595D45E1C9C348C00E7EB6E /* Debug */,
+				F595D45F1C9C348C00E7EB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F595D4601C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595D4611C9C348C00E7EB6E /* Debug */,
+				F595D4621C9C348C00E7EB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F595D4631C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595D4641C9C348C00E7EB6E /* Debug */,
+				F595D4651C9C348C00E7EB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F595D4661C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595D4671C9C348C00E7EB6E /* Debug */,
+				F595D4681C9C348C00E7EB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F595D43F1C9C348B00E7EB6E /* Practicum3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F595D4401C9C348B00E7EB6E /* Practicum3.xcdatamodel */,
+			);
+			currentVersion = F595D4401C9C348B00E7EB6E /* Practicum3.xcdatamodel */;
+			path = Practicum3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F595D42D1C9C348B00E7EB6E /* Project object */;
+}
