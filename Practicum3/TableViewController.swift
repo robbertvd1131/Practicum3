@@ -52,7 +52,7 @@ class TableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let selectedRow = self.tableView.indexPathForSelectedRow
         let selectedPirate = self.pirates[selectedRow!.row]
-        let controller = segue.destinationViewController as! DetailsViewController
+        let controller = segue.destinationViewController as! ViewController
         controller.selectedPirate = selectedPirate
     }
     

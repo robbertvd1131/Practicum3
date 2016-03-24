@@ -11,19 +11,24 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    
     @IBOutlet weak var lblName: UILabel!
-    @IBOutlet weak var lblLife: UiLabel!
+    @IBOutlet weak var lblLife: UILabel!
     @IBOutlet weak var lblActiveYears: UILabel!
     @IBOutlet weak var lblCountryofBirth: UILabel!
+    @IBOutlet weak var lblcomments: UILabel!
+    
+    var selectedPirate = pirate?()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        self.lblName.text = self.SelectedPirate?.name
-        self.lblLife.text = self.SelectedPirate?.life
-        self.lblActiveYears.text = self.SelectedPirate?.activeYears
-        self.lblCountryofBirth.text = self.SelectedPirate?.countryofBirth
+        self.lblName.text = self.selectedPirate?.name
+        self.lblLife.text = self.selectedPirate?.life
+        self.lblActiveYears.text = self.selectedPirate?.yearsactive
+        self.lblCountryofBirth.text = self.selectedPirate?.countryoforigin
+        self.lblcomments.text = self.selectedPirate?.comments
     }
 
     override func didReceiveMemoryWarning() {
