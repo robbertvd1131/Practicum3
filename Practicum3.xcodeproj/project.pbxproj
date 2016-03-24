@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F595D4391C9C348B00E7EB6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D4381C9C348B00E7EB6E /* AppDelegate.swift */; };
-		F595D43B1C9C348B00E7EB6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D43A1C9C348B00E7EB6E /* ViewController.swift */; };
 		F595D43E1C9C348B00E7EB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595D43C1C9C348B00E7EB6E /* Main.storyboard */; };
 		F595D4411C9C348B00E7EB6E /* Practicum3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F595D43F1C9C348B00E7EB6E /* Practicum3.xcdatamodeld */; };
 		F595D4431C9C348B00E7EB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595D4421C9C348B00E7EB6E /* Assets.xcassets */; };
 		F595D4461C9C348B00E7EB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595D4441C9C348B00E7EB6E /* LaunchScreen.storyboard */; };
 		F595D4511C9C348B00E7EB6E /* Practicum3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D4501C9C348B00E7EB6E /* Practicum3Tests.swift */; };
 		F595D45C1C9C348C00E7EB6E /* Practicum3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D45B1C9C348C00E7EB6E /* Practicum3UITests.swift */; };
+		F5CE13511CA3DD1C00083218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE13501CA3DD1C00083218 /* ViewController.swift */; };
+		F5CE13531CA3DDB200083218 /* pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE13521CA3DDB200083218 /* pirate.swift */; };
+		F5CE135D1CA3EE9C00083218 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE135C1CA3EE9C00083218 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F595D4351C9C348B00E7EB6E /* Practicum3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicum3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F595D4381C9C348B00E7EB6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F595D43A1C9C348B00E7EB6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F595D43D1C9C348B00E7EB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F595D4401C9C348B00E7EB6E /* Practicum3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practicum3.xcdatamodel; sourceTree = "<group>"; };
 		F595D4421C9C348B00E7EB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		F595D4571C9C348C00E7EB6E /* Practicum3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practicum3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F595D45B1C9C348C00E7EB6E /* Practicum3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practicum3UITests.swift; sourceTree = "<group>"; };
 		F595D45D1C9C348C00E7EB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CE13501CA3DD1C00083218 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5CE13521CA3DDB200083218 /* pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pirate.swift; sourceTree = "<group>"; };
+		F5CE135C1CA3EE9C00083218 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				F595D4381C9C348B00E7EB6E /* AppDelegate.swift */,
-				F595D43A1C9C348B00E7EB6E /* ViewController.swift */,
 				F595D43C1C9C348B00E7EB6E /* Main.storyboard */,
+				F5CE135C1CA3EE9C00083218 /* TableViewController.swift */,
+				F5CE13521CA3DDB200083218 /* pirate.swift */,
+				F5CE13501CA3DD1C00083218 /* ViewController.swift */,
 				F595D4421C9C348B00E7EB6E /* Assets.xcassets */,
 				F595D4441C9C348B00E7EB6E /* LaunchScreen.storyboard */,
 				F595D4471C9C348B00E7EB6E /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CE13531CA3DDB200083218 /* pirate.swift in Sources */,
+				F5CE13511CA3DD1C00083218 /* ViewController.swift in Sources */,
 				F595D4411C9C348B00E7EB6E /* Practicum3.xcdatamodeld in Sources */,
-				F595D43B1C9C348B00E7EB6E /* ViewController.swift in Sources */,
+				F5CE135D1CA3EE9C00083218 /* TableViewController.swift in Sources */,
 				F595D4391C9C348B00E7EB6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +494,7 @@
 				F595D4621C9C348C00E7EB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F595D4631C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				F595D4651C9C348C00E7EB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F595D4661C9C348C00E7EB6E /* Build configuration list for PBXNativeTarget "Practicum3UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				F595D4681C9C348C00E7EB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
